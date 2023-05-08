@@ -1,7 +1,7 @@
 ("use strict");
 const STRIPE_KEY =
   "sk_test_51N5SmPSGFoj9bxmgd8ZPFNg2RWUhvvlQo4U3j7mJl8L5IDMlNxeV379077NMkrBYIsgrc6SfV4MyBEW7l75gxoOO00YdzWKFne";
-const CLIENT_URL = "https://noman-shoes-store-frontend.vercel.app/";
+const CLIENT_URL = "https://noman-shoes-store-frontend.vercel.app";
 
 const stripe = require("stripe")(STRIPE_KEY);
 /**
